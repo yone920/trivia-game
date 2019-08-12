@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1 class="welcome-h1">Welcome to Triviaaaaa</h1>
+        </div>
+
+        <div class="usernameDiv">
+            <!-- <label class="name-label" for="user-name">Name</label> -->
+            <input name="user-name" id="user-name" type="text" placeholder="Your name..">
+        </div>
+
+        <div class="trivia-div">
+            <ol class="trivia"></ol>
+        </div>
+        
+        <div class="choices-div">
+            <form class="choices">
+            </form>
+        </div>
+
+
+        <div class="score">  
+           
+        </div>
+        
+    <div class="category-number-container">
+        <div class="trvia-category">
+            <h4>Choose Category</h4>
+            
+            <input id="General-Knowledge" type="radio" name="category" value="9">
+            <label for="General-Knowledge">General Knowledge</label><br>
+            <input id="Sports" type="radio" name="category" value="21">
+            <label for="Sports">Sports</label><br>
+            <input id="Celebrities" type="radio" name="category" value="26">
+            <label for="Celebrities">Celebrities</label><br>
+            <input id="Mythology" type="radio" name="category" value="20">
+            <label for="Mythology">Mythology</label><br>
+            
+            <input id="Vehicles" type="radio" name="category" value="28">
+            <label for="Vehicles">Vehicles</label><br>
+
+            <input id="Entertainment-Music" type="radio" name="category" value="12">
+            <label for="Entertainment-Music">Entertainment: Music</label><br>
+
+            <input id="Entertainment-Book" type="radio" name="category" value="10">
+            <label for="Entertainment-Book">Entertainment: Book</label><br>
+
+            <input id="Politics" type="radio" name="category" value="24">
+            <label for="Politics">Politics</label><br>
+        </div>
+
+        <div class="number-of-quastions">
+            <h4>Number of Questions</h4>
+            <input id="five" type="radio" name="number" value="5">
+            <label for="five">5</label><br>
+            <input id="ten" type="radio" name="number" value="10">
+            <label for="ten">10</label><br>
+            <input id="fifteen" type="radio" name="number" value="15">
+            <label for="fifteen">15</label><br>
+        </div>
+    </div>
+
+
+        
+        <!-- <div class="correct-div">
+            <h4>You have correctly answered the following quastions!</h4>
+                <ul class="correctQuestions">
+
+                </ul>
+        </div> -->
+
+
+        <div class="incorrect-div">
+            <h4>You answered the following questions incorrectly!</h4>
+                <ul class="incorrectQuestions">
+                    <!-- <li class="incorrecLI"></li> -->
+                </ul>
+        </div>
+
+
+        <div class="button-div">
+            <button class="next">Play</button>
+        </div>
+
+        <div class="reload-div">
+            <button class="page-reload">Play New Game</button>
+        </div>
+        
+
+    <!-- <button class="play-again">Play Again</button> -->
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
